@@ -79,5 +79,11 @@ namespace DictionaryApp.Infra.Repositories
                                  .Take(limit)
                                  .ToListAsync();
         }
+
+        public async Task<Word> GetByIdAsync(string wordId)
+        {
+            return await _context.Words
+                .FirstOrDefaultAsync(w => w.Id == wordId);
+        }
     }
 }

@@ -3,6 +3,8 @@ using DictionaryApp.Domain.Interfaces;
 using DictionaryApp.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DictionaryApp.Infra.Repositories
 {
@@ -15,28 +17,16 @@ namespace DictionaryApp.Infra.Repositories
             _context = context;
         }
 
-        public async Task AddFavoriteAsync(string userId, string wordId)
+        public async Task AddAsync(Favorite favorite)
         {
-            var favorite = new Favorite
-            {
-                UserId = userId,
-                WordId = wordId,
-                Added = DateTime.UtcNow
-            };
-            _context.Favorites.Add(favorite);
+            await _context.Favorites.AddAsync(favorite);
             await _context.SaveChangesAsync();
         }
 
-        public async Task RemoveFavoriteAsync(string userId, string wordId)
+        public async Task RemoveAsync(Favorite favorite)
         {
-            var favorite = await _context.Favorites
-                .FirstOrDefaultAsync(f => f.UserId == userId && f.WordId == wordId);
-
-            if (favorite != null)
-            {
-                _context.Favorites.Remove(favorite);
-                await _context.SaveChangesAsync();
-            }
+            _context.Favorites.Remove(favorite);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<Favorite>> GetFavoritesAsync(string userId)
@@ -46,9 +36,17 @@ namespace DictionaryApp.Infra.Repositories
                 .ToListAsync();
         }
 
-        Task<IEnumerable<Favorite>> IFavoriteRepository.GetFavoritesAsync(string userId)
+        public async Task<Favorite> GetByUserIdAndWordIdAsync(string userId, string wordId)
         {
-            throw new NotImplementedException();
+            return await _context.Favorites
+                .FirstOrDefaultAsync(f => f.UserId == userId && f.WordId == wordId);
+        }
+
+        // Para os métodos que não estão sendo usados na interface, como GetByIdAsync
+        public async Task<Favorite> GetByIdAsync(string wordId)
+        {
+            return await _context.Favorites
+                .FirstOrDefaultAsync(f => f.WordId == wordId);
         }
     }
 }

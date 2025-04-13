@@ -1,5 +1,6 @@
 ﻿using DictionaryApp.Application.Dtos;
 using DictionaryApp.Application.Interfaces;
+using DictionaryApp.Domain.Entities;
 using DictionaryApp.Domain.Interfaces;
 
 namespace DictionaryApp.Application.Services
@@ -41,16 +42,6 @@ namespace DictionaryApp.Application.Services
             });
         }
 
-        public async Task AddWordToFavoritesAsync(string wordId)
-        {
-            await _favoriteRepository.AddFavoriteAsync("userId", wordId);  // Coloque o userId real aqui
-        }
-
-        public async Task RemoveWordFromFavoritesAsync(string wordId)
-        {
-            await _favoriteRepository.RemoveFavoriteAsync("userId", wordId);  // Coloque o userId real aqui
-        }
-
         public async Task<IEnumerable<FavoriteDto>> GetFavoriteWordsAsync()
         {
             var favorites = await _favoriteRepository.GetFavoritesAsync("userId"); // Coloque o userId real aqui
@@ -80,5 +71,75 @@ namespace DictionaryApp.Application.Services
                 HasPrev = hasPrev
             };
         }
+
+        public async Task AddWordToFavoritesAsync(string wordId)
+    {
+        // Lógica para garantir que o usuário está autenticado (geralmente por um token)
+        var userId = "userIdFromToken"; // Suponha que você tenha o userId do token JWT
+
+        var word = await _wordRepository.GetByIdAsync(wordId);
+        if (word == null)
+        {
+            throw new Exception("Palavra não encontrada.");
+        }
+
+        var favorite = new Favorite
+        {
+            UserId = userId,
+            WordId = wordId
+        };
+
+        await _favoriteRepository.AddAsync(favorite);
     }
+
+    public async Task RemoveWordFromFavoritesAsync(string wordId)
+    {
+        var userId = "userIdFromToken"; // Suponha que você tenha o userId do token JWT
+
+        var favorite = await _favoriteRepository.GetByUserIdAndWordIdAsync(userId, wordId);
+        if (favorite == null)
+        {
+            throw new Exception("Palavra não está em seus favoritos.");
+        }
+
+        await _favoriteRepository.RemoveAsync(favorite);
+    }
+
+    // Método para adicionar uma palavra aos favoritos
+        public async Task AddToFavoritesAsync(string wordId)
+        {
+            var userId = "userIdFromToken"; // Substitua com o ID real do usuário (usualmente extraído do token JWT)
+
+            var word = await _wordRepository.GetByIdAsync(wordId);
+            if (word == null)
+            {
+                throw new Exception("Palavra não encontrada.");
+            }
+
+            var favorite = new Favorite
+            {
+                UserId = userId,
+                WordId = wordId,
+                Added = DateTime.UtcNow
+            };
+
+            await _favoriteRepository.AddAsync(favorite);
+        }
+
+        // Método para remover uma palavra dos favoritos
+        public async Task RemoveFromFavoritesAsync(string wordId)
+        {
+            var userId = "userIdFromToken"; // Substitua com o ID real do usuário
+
+            var favorite = await _favoriteRepository.GetByUserIdAndWordIdAsync(userId, wordId);
+            if (favorite == null)
+            {
+                throw new Exception("Palavra não está em seus favoritos.");
+            }
+
+            await _favoriteRepository.RemoveAsync(favorite);
+        }
+    }
+    
+
 }

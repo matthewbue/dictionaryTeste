@@ -26,7 +26,7 @@ namespace DictionaryApp.Infra.Data
                 .HasOne<User>()
                 .WithMany()
                 .HasForeignKey(h => h.UserId)
-                .OnDelete(DeleteBehavior.Cascade);  // Configura o relacionamento com o usuário
+                .OnDelete(DeleteBehavior.Cascade);
         }
 
     }

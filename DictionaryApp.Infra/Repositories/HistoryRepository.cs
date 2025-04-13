@@ -3,6 +3,8 @@ using DictionaryApp.Domain.Interfaces;
 using DictionaryApp.Infra.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DictionaryApp.Infra.Repositories
 {
@@ -15,9 +17,17 @@ namespace DictionaryApp.Infra.Repositories
             _context = context;
         }
 
-        public Task AddHistoryAsync(Word word)
+        public async Task AddHistoryAsync(string userId, string word)
         {
-            throw new NotImplementedException();
+            var history = new History
+            {
+                UserId = userId,
+                Word = word,
+                Added = DateTime.UtcNow
+            };
+
+            await _context.Histories.AddAsync(history);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<IEnumerable<History>> GetHistoryAsync(string userId)
@@ -27,7 +37,17 @@ namespace DictionaryApp.Infra.Repositories
                 .ToListAsync();
         }
 
-        Task<IEnumerable<History>> IHistoryRepository.GetHistoryAsync(string userId)
+        public async Task ClearHistoryAsync(string userId)
+        {
+            var userHistory = await _context.Histories
+                .Where(h => h.UserId == userId)
+                .ToListAsync();
+
+            _context.Histories.RemoveRange(userHistory);
+            await _context.SaveChangesAsync();
+        }
+
+        public Task AddHistoryAsync(Word word)
         {
             throw new NotImplementedException();
         }

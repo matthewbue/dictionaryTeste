@@ -4,8 +4,10 @@ namespace DictionaryApp.Domain.Interfaces
 {
     public interface IFavoriteRepository
     {
-        Task AddFavoriteAsync(string userId, string wordId);
-        Task RemoveFavoriteAsync(string userId, string wordId);
+        Task<Favorite> GetByIdAsync(string wordId);
+        Task<Favorite> GetByUserIdAndWordIdAsync(string userId, string wordId);
         Task<IEnumerable<Favorite>> GetFavoritesAsync(string userId);
+        Task RemoveAsync(Favorite favorite);
+        Task AddAsync(Favorite favorite);
     }
 }

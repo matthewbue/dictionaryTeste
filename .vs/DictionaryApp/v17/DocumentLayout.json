@@ -1,134 +1,134 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\",
+  "WorkspaceRootPath": "E:\\Work-Pessoal\\dictionaryTeste\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\repositories\\wordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\repositories\\wordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\repositories\\wordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\interfaces\\iwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\interfaces\\iwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\interfaces\\iwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\services\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\services\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\services\\wordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\interfaces\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\interfaces\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\interfaces\\iwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\controllers\\wordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\controllers\\wordimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\controllers\\wordimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\services\\wordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\services\\wordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\services\\wordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\interfaces\\iwordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\interfaces\\iwordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\interfaces\\iwordimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dtos\\signindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\entities\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\entities\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\repositories\\historyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\repositories\\historyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\repositories\\historyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dtos\\favoritedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.infra\\repositories\\favoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.infra\\repositories\\favoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23F29827-8BCE-4822-9465-FC3747511F2D}|DictionaryApp.Infra\\DictionaryApp.Infra.csproj|solutionrelative:dictionaryapp.infra\\repositories\\favoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dtos\\signupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dtos\\worddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dtos\\worddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dtos\\worddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\interfaces\\ifavoriterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.domain\\interfaces\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.domain\\interfaces\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41CA5AAB-9052-4A58-A8BB-A18E9B4D01BC}|DictionaryApp.Domain\\DictionaryApp.Domain.csproj|solutionrelative:dictionaryapp.domain\\interfaces\\ihistoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp.application\\dictionaryapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp.application\\dictionaryapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{D79CCF68-1763-4BB9-9FCA-71D5164F1832}|DictionaryApp.Application\\DictionaryApp.Application.csproj|solutionrelative:dictionaryapp.application\\dictionaryapp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|e:\\work-pessoal\\dictionaryteste\\dictionaryapp\\dictionaryapp\\dictionaryapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A8257743-88FC-47D6-8291-2CFB22D59265}|DictionaryApp\\DictionaryApp.Api.csproj|solutionrelative:dictionaryapp\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,11 +194,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AppDbContextModelSnapshot.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAQwB0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -206,11 +206,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 14,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Interfaces\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,11 +218,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -230,11 +230,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WordRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\WordRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\WordRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Repositories\\WordRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\WordRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\WordRepository.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Repositories\\WordRepository.cs",
               "ViewState": "AgIAAD0AAAAAAAAAAAAwwEcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -242,23 +242,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs",
-              "RelativeDocumentMoniker": "DictionaryApp\\Program.cs",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs",
-              "RelativeToolTip": "DictionaryApp\\Program.cs",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T16:10:13.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Word.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\Word.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\Word.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Entities\\Word.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\Word.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\Word.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Entities\\Word.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -266,23 +266,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 27,
               "Title": "WordController.cs",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs",
-              "RelativeDocumentMoniker": "DictionaryApp\\Controllers\\WordController.cs",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs",
-              "RelativeToolTip": "DictionaryApp\\Controllers\\WordController.cs",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordController.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAcwCkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T14:54:52.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "WordService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\WordService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\WordService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Services\\WordService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\WordService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\WordService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Services\\WordService.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAowAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,11 +290,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IWordService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IWordService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IWordService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Interfaces\\IWordService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IWordService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IWordService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Interfaces\\IWordService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -304,22 +304,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Data\\AppDbContext.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Data\\AppDbContext.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Data\\AppDbContext.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T16:30:54.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 12,
               "Title": "User.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\User.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Entities\\User.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\User.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\User.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -327,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IWordRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Interfaces\\IWordRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -339,11 +339,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 11,
               "Title": "SignInDto.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\SignInDto.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\SignInDto.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DTOs\\SignInDto.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\SignInDto.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\SignInDto.cs",
               "RelativeToolTip": "DictionaryApp.Application\\DTOs\\SignInDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "IAuthService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IAuthService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IAuthService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IAuthService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Interfaces\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -363,11 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\AuthService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Services\\AuthService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\AuthService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\AuthService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Services\\AuthService.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAUwD4AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "WordImportService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\WordImportService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\WordImportService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Services\\WordImportService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Services\\WordImportService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Services\\WordImportService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Services\\WordImportService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,23 +387,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "WordImportController.cs",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs",
-              "RelativeDocumentMoniker": "DictionaryApp\\Controllers\\WordImportController.cs",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs",
-              "RelativeToolTip": "DictionaryApp\\Controllers\\WordImportController.cs",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\WordImportController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T03:42:54.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "IWordImportService.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
               "RelativeToolTip": "DictionaryApp.Application\\Interfaces\\IWordImportService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -411,35 +411,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 29,
               "Title": "AuthController.cs",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "DictionaryApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "DictionaryApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T18:37:10.677Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json",
-              "RelativeDocumentMoniker": "DictionaryApp\\appsettings.json",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json",
-              "RelativeToolTip": "DictionaryApp\\appsettings.json",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-12T16:47:09.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 16,
               "Title": "Favorite.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\Favorite.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\Favorite.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Entities\\Favorite.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\Favorite.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\Favorite.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Entities\\Favorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -447,11 +447,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "HistoryRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Repositories\\HistoryRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +459,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 19,
               "Title": "FavoriteDto.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
               "RelativeToolTip": "DictionaryApp.Application\\DTOs\\FavoriteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,11 +471,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 15,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\UserDto.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DTOs\\UserDto.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\UserDto.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\UserDto.cs",
               "RelativeToolTip": "DictionaryApp.Application\\DTOs\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -483,11 +483,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "FavoriteRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
               "RelativeToolTip": "DictionaryApp.Infra\\Repositories\\FavoriteRepository.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAjwCAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -495,11 +495,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 17,
               "Title": "History.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\History.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\History.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Entities\\History.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Entities\\History.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Entities\\History.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Entities\\History.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,11 +507,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 21,
               "Title": "SignUpDto.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\SignUpDto.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\SignUpDto.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DTOs\\SignUpDto.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\SignUpDto.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\SignUpDto.cs",
               "RelativeToolTip": "DictionaryApp.Application\\DTOs\\SignUpDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,11 +519,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "WordDto.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\WordDto.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\WordDto.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DTOs\\WordDto.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DTOs\\WordDto.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DTOs\\WordDto.cs",
               "RelativeToolTip": "DictionaryApp.Application\\DTOs\\WordDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -531,11 +531,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "IFavoriteRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Interfaces\\IFavoriteRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -543,11 +543,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 24,
               "Title": "IHistoryRepository.cs",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
               "RelativeDocumentMoniker": "DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
               "RelativeToolTip": "DictionaryApp.Domain\\Interfaces\\IHistoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -555,11 +555,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "DictionaryApp.Application.csproj",
-              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DictionaryApp.Application.csproj",
+              "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DictionaryApp.Application.csproj",
               "RelativeDocumentMoniker": "DictionaryApp.Application\\DictionaryApp.Application.csproj",
-              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp.Application\\DictionaryApp.Application.csproj",
+              "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp.Application\\DictionaryApp.Application.csproj",
               "RelativeToolTip": "DictionaryApp.Application\\DictionaryApp.Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -570,9 +570,9 @@
               "DocumentIndex": 31,
               "Title": "Startup.cs",
               "DocumentMoniker": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs",
-              "RelativeDocumentMoniker": "DictionaryApp\\Startup.cs",
+              "RelativeDocumentMoniker": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs",
               "ToolTip": "E:\\Work-Pessoal\\dictionaryTeste\\DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs",
-              "RelativeToolTip": "DictionaryApp\\Startup.cs",
+              "RelativeToolTip": "DictionaryApp\\DictionaryApp\\DictionaryApp\\Startup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T04:34:21.405Z"
