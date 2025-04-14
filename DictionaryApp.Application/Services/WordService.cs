@@ -25,23 +25,11 @@ namespace DictionaryApp.Application.Services
             var wordDetails = await _wordRepository.GetWordByNameAsync(word);
             if (wordDetails == null) return null;
 
-            await _historyRepository.AddHistoryAsync(wordDetails);
-
             return new WordDto
             {
                 WordName = wordDetails.WordName,
                 Definition = wordDetails.Definition
             };
-        }
-
-        public async Task<IEnumerable<WordDto>> SearchWordsAsync(string search, int limit, int page)
-        {
-            var words = await _wordRepository.GetWordsAsync(search, limit, page);
-            return words.Select(w => new WordDto
-            {
-                WordName = w.WordName,
-                Definition = w.Definition
-            });
         }
 
         public async Task<IEnumerable<FavoriteDto>> GetFavoriteWordsAsync()

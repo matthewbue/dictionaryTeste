@@ -34,6 +34,6 @@ public class AuthController : ControllerBase
         if (token == null)
             return Unauthorized();
 
-        return Ok(new { token = "Bearer " + token });
+        return Ok(new { Token = token });
     }
 }

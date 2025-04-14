@@ -49,8 +49,5 @@ namespace DictionaryApp.Api.Controllers
             var favorites = await _favoriteService.GetFavoriteWordsAsync(userId);
             return Ok(new { results = favorites });
         }
-
-
-        // Outros endpoints do usuário podem ser adicionados aqui
     }
 }

@@ -54,11 +54,6 @@ namespace DictionaryApp.Infra.Repositories
             throw new NotImplementedException();
         }
 
-        Task<IEnumerable<Word>> IWordRepository.GetWordsAsync(string search, int limit, int page)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task AddWordsAsync(List<Word> words)
         {
             await _context.Words.AddRangeAsync(words);
