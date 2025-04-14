@@ -13,6 +13,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp.Common", "Dic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp.Api", "DictionaryApp.Api\DictionaryApp.Api.csproj", "{F95F2F1D-4E48-7081-BE10-88002A7D3FFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp.Tests", "DictionaryApp.Tests\DictionaryApp.Tests.csproj", "{68469BBE-F867-463E-B19D-0DB393369FDF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{23F29827-8BCE-4822-9465-FC3747511F2D} = {23F29827-8BCE-4822-9465-FC3747511F2D}
+		{D79CCF68-1763-4BB9-9FCA-71D5164F1832} = {D79CCF68-1763-4BB9-9FCA-71D5164F1832}
+		{F95F2F1D-4E48-7081-BE10-88002A7D3FFF} = {F95F2F1D-4E48-7081-BE10-88002A7D3FFF}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +46,10 @@ Global
 		{F95F2F1D-4E48-7081-BE10-88002A7D3FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F95F2F1D-4E48-7081-BE10-88002A7D3FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F95F2F1D-4E48-7081-BE10-88002A7D3FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68469BBE-F867-463E-B19D-0DB393369FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68469BBE-F867-463E-B19D-0DB393369FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68469BBE-F867-463E-B19D-0DB393369FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68469BBE-F867-463E-B19D-0DB393369FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

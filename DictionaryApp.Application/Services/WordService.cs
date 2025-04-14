@@ -11,9 +11,9 @@ namespace DictionaryApp.Application.Services
         private readonly ICacheService _cacheService;
         private readonly IHistoryRepository _historyRepository;
         private readonly IFavoriteRepository _favoriteRepository;
-        private readonly JwtTokenService _jwtTokenService;
+        private readonly IJwtTokenService _jwtTokenService;
 
-        public WordService(IWordRepository wordRepository, IHistoryRepository historyRepository, IFavoriteRepository favoriteRepository, JwtTokenService jwtTokenService
+        public WordService(IWordRepository wordRepository, IHistoryRepository historyRepository, IFavoriteRepository favoriteRepository, IJwtTokenService jwtTokenService
             , ICacheService cacheService)
         {
             _wordRepository = wordRepository;

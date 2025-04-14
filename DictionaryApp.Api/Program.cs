@@ -44,6 +44,7 @@ builder.Services.AddScoped<JwtTokenService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IFavoriteService, FavoriteService>();
 builder.Services.AddSingleton<ICacheService, RedisCacheService>();
+builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
 
 
 // Configuração da autenticação JWT

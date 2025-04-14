@@ -20,7 +20,7 @@ namespace DictionaryApp.Infra.Repositories
             return await _context.Words.FirstOrDefaultAsync(w => w.WordName == word);
         }
 
-        public async Task<IEnumerable<Word>> GetWordsAsync(string search, int limit, int page)
+        public async Task<IEnumerable<Word>> GetWordsAsync(string search, int page, int limit)
         {
             return await _context.Words
                 .Where(w => w.WordName.Contains(search))

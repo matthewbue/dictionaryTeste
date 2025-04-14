@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace DictionaryApp.Application.Services
 {
-    public class JwtTokenService
+    public class JwtTokenService : IJwtTokenService
     {
         private readonly IHttpContextAccessor _httpContextAccessor;
 
