@@ -63,7 +63,7 @@ namespace DictionaryApp.Application.Services
 
             return new WordListDto
             {
-                Results = words,
+                Results = words.Select(w => w.WordName),
                 TotalDocs = totalWords,
                 Page = page,
                 TotalPages = totalPages,

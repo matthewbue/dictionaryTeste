@@ -2,7 +2,7 @@
 {
     public class WordListDto
     {
-        public List<Word> Results { get; set; }
+        public IEnumerable<string> Results { get; set; }
         public int TotalDocs { get; set; }
         public int Page { get; set; }
         public int TotalPages { get; set; }

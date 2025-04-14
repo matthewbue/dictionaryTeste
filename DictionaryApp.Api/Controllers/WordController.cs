@@ -17,6 +17,13 @@ public class WordController : ControllerBase
         _historyService = historyService;
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetWords([FromQuery] int limit = 10, [FromQuery] int page = 1)
+    {
+        var wordList = await _wordService.GetWordsAsync(limit, page);
+        return Ok(wordList);
+    }
+
     [HttpGet("{word}")]
     public async Task<IActionResult> GetWord(string word)
     {
