@@ -6,7 +6,7 @@ using DictionaryApp.Application.Services;
 
 [ApiController]
 [Route("api/[controller]")]
-[Authorize]  // Adicionando proteção com token JWT
+[Authorize]
 public class WordController : ControllerBase
 {
     private readonly IWordService _wordService;
@@ -27,9 +27,9 @@ public class WordController : ControllerBase
     }
 
     [HttpGet("entries/en")]
-    public async Task<IActionResult> GetWords([FromQuery] int limit = 10, [FromQuery] int page = 1)
+    public async Task<IActionResult> GetWords([FromQuery] int limit = 10, [FromQuery] int page = 1, [FromQuery] string search = "")
     {
-        var wordList = await _wordService.GetWordsAsync(limit, page);
+        var wordList = await _wordService.GetWordsAsync(search, limit, page);
         return Ok(wordList);
     }
 

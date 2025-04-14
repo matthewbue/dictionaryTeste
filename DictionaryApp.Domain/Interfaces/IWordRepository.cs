@@ -10,7 +10,6 @@ namespace DictionaryApp.Domain.Interfaces
         Task RemoveFromFavoritesAsync(string wordId);
         Task AddWordsAsync(List<Word> words);
         Task<int> GetTotalWordsAsync();
-        Task<List<Word>> GetWordsAsync(int page, int limit);
         Task<Word> GetByIdAsync(string wordId);
     }
 }

@@ -49,16 +49,6 @@ namespace DictionaryApp.Infra.Repositories
             }
         }
 
-        Task<Word> IWordRepository.GetWordByNameAsync(string word)
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<IEnumerable<Word>> IWordRepository.GetWordsAsync(string search, int limit, int page)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task AddWordsAsync(List<Word> words)
         {
             await _context.Words.AddRangeAsync(words);
@@ -71,14 +61,6 @@ namespace DictionaryApp.Infra.Repositories
             return await _context.Words.CountAsync();
         }
 
-        // Método para obter as palavras com paginação
-        public async Task<List<Word>> GetWordsAsync(int page, int limit)
-        {
-            return await _context.Words
-                                 .Skip((page - 1) * limit)
-                                 .Take(limit)
-                                 .ToListAsync();
-        }
 
         public async Task<Word> GetByIdAsync(string wordId)
         {
