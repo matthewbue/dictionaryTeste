@@ -41,6 +41,9 @@ namespace DictionaryApp.Application.Services
                 Definition = wordDetails.Definition
             };
 
+            // Adiciona o resultado ao cache
+            await _cacheService.SetAsync(cacheKey, wordDto, TimeSpan.FromMinutes(10));
+
             return wordDto;
         }
 
@@ -116,6 +119,28 @@ namespace DictionaryApp.Application.Services
 
             await _favoriteRepository.RemoveAsync(favorite);
         }
+
+        public async Task AddToFavoritesAsync(string wordId)
+        {
+            var userId = "userIdFromToken"; // Substitua com o ID real do usuário (usualmente extraído do token JWT)
+
+            var word = await _wordRepository.GetByIdAsync(wordId);
+            if (word == null)
+            {
+                throw new Exception("Palavra não encontrada.");
+            }
+
+            var favorite = new Favorite
+            {
+                UserId = userId,
+                WordId = wordId,
+                Added = DateTime.UtcNow
+            };
+
+            await _favoriteRepository.AddAsync(favorite);
+        }
+
+
     }
 
 

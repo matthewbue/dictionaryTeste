@@ -41,8 +41,6 @@ public class WordController : ControllerBase
         }
 
         return Ok(wordListDto);
-        var wordList = await _wordService.GetWordsAsync(search, limit, page);
-        return Ok(wordList);
     }
 
     [HttpGet("entries/en/{word}")]
