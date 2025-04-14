@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DictionaryApp.Application.Interfaces;
 using DictionaryApp.Application.Dtos;
+using DictionaryApp.Application.Services;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -10,54 +11,57 @@ public class WordController : ControllerBase
 {
     private readonly IWordService _wordService;
     private readonly IHistoryService _historyService;
+    private readonly JwtTokenService _jwtTokenService;
 
-    public WordController(IWordService wordService, IHistoryService historyService)
+    public WordController(IWordService wordService, IHistoryService historyService, JwtTokenService jwtTokenService)
     {
         _wordService = wordService;
         _historyService = historyService;
+        _jwtTokenService = jwtTokenService;
     }
 
     [HttpGet]
+    public IActionResult Get()
+    {
+        return Ok(new { message = "Fullstack Challenge 🏅 - Dictionary" });
+    }
+
+    [HttpGet("entries/en")]
     public async Task<IActionResult> GetWords([FromQuery] int limit = 10, [FromQuery] int page = 1)
     {
         var wordList = await _wordService.GetWordsAsync(limit, page);
         return Ok(wordList);
     }
 
-    [HttpGet("{word}")]
-    public async Task<IActionResult> GetWord(string word)
+    [HttpGet("entries/en/{word}")]
+    public async Task<IActionResult> GetWordDetails(string word)
     {
-        // Obter o usuário do token
-        var userId = User.FindFirst("id")?.Value;
-        if (userId == null)
-        {
-            return Unauthorized(new { message = "Token inválido ou ausente" });
-        }
-
-        // Buscar a palavra e adicionar ao histórico
+        var userId = _jwtTokenService.GetUserIdFromToken();
         var wordDetails = await _wordService.GetWordDetailsAsync(word);
         if (wordDetails == null)
-        {
             return NotFound(new { message = "Palavra não encontrada" });
-        }
 
-        // Adicionar ao histórico
-        await _historyService.AddToHistoryAsync(userId, word);
+        await _historyService.AddToHistoryAsync(userId, word);  // Adiciona a palavra no histórico
 
         return Ok(wordDetails);
     }
 
-     [HttpPost("{wordId}/favorite")]
-    public async Task<IActionResult> AddWordToFavorites(string wordId)
+
+    [HttpPost("entries/en/{word}/favorite")]
+    public async Task<IActionResult> AddToFavorites(string word)
     {
-        await _wordService.AddToFavoritesAsync(wordId);
+        var userId = _jwtTokenService.GetUserIdFromToken();
+        await _wordService.AddWordToFavoritesAsync(word);
         return Ok(new { message = "Palavra adicionada aos favoritos." });
     }
 
-    [HttpDelete("{wordId}/unfavorite")]
-    public async Task<IActionResult> RemoveWordFromFavorites(string wordId)
+
+    [HttpDelete("entries/en/{word}/unfavorite")]
+    public async Task<IActionResult> RemoveFromFavorites(string word)
     {
-        await _wordService.RemoveFromFavoritesAsync(wordId);
+        var userId = _jwtTokenService.GetUserIdFromToken();
+        await _wordService.RemoveWordFromFavoritesAsync(word);
         return Ok(new { message = "Palavra removida dos favoritos." });
     }
+
 }

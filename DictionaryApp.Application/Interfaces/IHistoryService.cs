@@ -1,9 +1,11 @@
+using DictionaryApp.Domain.Entities;
+
 namespace DictionaryApp.Application.Interfaces
 {
     public interface IHistoryService
     {
         Task AddToHistoryAsync(string userId, string word);
-        Task<IEnumerable<string>> GetHistoryAsync(string userId);
         Task ClearHistoryAsync(string userId);
+        Task<IEnumerable<History>> GetHistoryAsync(string userId);
     }
 }

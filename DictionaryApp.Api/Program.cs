@@ -39,6 +39,11 @@ builder.Services.AddScoped<IWordService, WordService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IHistoryService, HistoryService>();
 builder.Services.AddScoped<IWordImportService, WordImportService>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped<JwtTokenService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IFavoriteService, FavoriteService>();
+
 
 // Configuração da autenticação JWT
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

@@ -10,12 +10,14 @@ namespace DictionaryApp.Application.Services
         private readonly IWordRepository _wordRepository;
         private readonly IHistoryRepository _historyRepository;
         private readonly IFavoriteRepository _favoriteRepository;
+        private readonly JwtTokenService _jwtTokenService;
 
-        public WordService(IWordRepository wordRepository, IHistoryRepository historyRepository, IFavoriteRepository favoriteRepository)
+        public WordService(IWordRepository wordRepository, IHistoryRepository historyRepository, IFavoriteRepository favoriteRepository, JwtTokenService jwtTokenService)
         {
             _wordRepository = wordRepository;
             _historyRepository = historyRepository;
             _favoriteRepository = favoriteRepository;
+            _jwtTokenService = jwtTokenService;
         }
 
         public async Task<WordDto> GetWordDetailsAsync(string word)
@@ -44,7 +46,7 @@ namespace DictionaryApp.Application.Services
 
         public async Task<IEnumerable<FavoriteDto>> GetFavoriteWordsAsync()
         {
-            var favorites = await _favoriteRepository.GetFavoritesAsync("userId"); // Coloque o userId real aqui
+            var favorites = await _favoriteRepository.GetFavoritesAsync("userId");
             return favorites.Select(f => new FavoriteDto
             {
                 WordId = f.WordId,
@@ -74,10 +76,9 @@ namespace DictionaryApp.Application.Services
 
         public async Task AddWordToFavoritesAsync(string wordId)
     {
-        // Lógica para garantir que o usuário está autenticado (geralmente por um token)
-        var userId = "userIdFromToken"; // Suponha que você tenha o userId do token JWT
+            var userId = _jwtTokenService.GetUserIdFromToken();
 
-        var word = await _wordRepository.GetByIdAsync(wordId);
+            var word = await _wordRepository.GetByIdAsync(wordId);
         if (word == null)
         {
             throw new Exception("Palavra não encontrada.");

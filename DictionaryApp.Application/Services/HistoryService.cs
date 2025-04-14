@@ -16,18 +16,25 @@ public class HistoryService : IHistoryService
         await _historyRepository.AddHistoryAsync(userId, word);
     }
 
-    public async Task<List<History>> GetHistoryAsync(string userId)
-    {
-        return (List<History>)await _historyRepository.GetHistoryAsync(userId);
-    }
-
     public async Task ClearHistoryAsync(string userId)
     {
         await _historyRepository.ClearHistoryAsync(userId);
     }
 
-    Task<IEnumerable<string>> IHistoryService.GetHistoryAsync(string userId)
+    public async Task<IEnumerable<History>> GetHistoryAsync(string userId)
     {
-        throw new NotImplementedException();
+        var history = await _historyRepository.GetHistoryAsync(userId);
+        var historyDtos = new List<History>();
+
+        foreach (var h in history)
+        {
+            historyDtos.Add(new History
+            {
+                Word = h.Word,
+                Added = h.Added
+            });
+        }
+
+        return historyDtos;
     }
 }
