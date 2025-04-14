@@ -40,6 +40,8 @@ namespace DictionaryApp.Application.Services
                 WordName = wordDetails.WordName,
                 Definition = wordDetails.Definition
             };
+
+            return wordDto;
         }
 
         public async Task<IEnumerable<WordDto>> SearchWordsAsync(string search, int limit, int page)
@@ -82,11 +84,11 @@ namespace DictionaryApp.Application.Services
             };
         }
 
-        public async Task AddWordToFavoritesAsync(string wordId)
+        public async Task AddWordToFavoritesAsync(string wordName)
         {
             var userId = _jwtTokenService.GetUserIdFromToken();
 
-            var word = await _wordRepository.GetByIdAsync(wordId);
+            var word = await _wordRepository.GetWordByNameAsync(wordName);
             if (word == null)
             {
                 throw new Exception("Palavra não encontrada.");
@@ -95,52 +97,18 @@ namespace DictionaryApp.Application.Services
             var favorite = new Favorite
             {
                 UserId = userId,
-                WordId = wordId
+                WordId = wordName
             };
 
             await _favoriteRepository.AddAsync(favorite);
         }
 
-        public async Task RemoveWordFromFavoritesAsync(string wordId)
+        public async Task RemoveWordFromFavoritesAsync(string wordName)
         {
-            var userId = "userIdFromToken"; // Suponha que você tenha o userId do token JWT
+            var userId = _jwtTokenService.GetUserIdFromToken();
 
-            var favorite = await _favoriteRepository.GetByUserIdAndWordIdAsync(userId, wordId);
-            if (favorite == null)
-            {
-                throw new Exception("Palavra não está em seus favoritos.");
-            }
+            var favorite = await _favoriteRepository.GetByUserIdAndWordNameAsync(userId, wordName);
 
-            await _favoriteRepository.RemoveAsync(favorite);
-        }
-
-        // Método para adicionar uma palavra aos favoritos
-        public async Task AddToFavoritesAsync(string wordId)
-        {
-            var userId = "userIdFromToken"; // Substitua com o ID real do usuário (usualmente extraído do token JWT)
-
-            var word = await _wordRepository.GetByIdAsync(wordId);
-            if (word == null)
-            {
-                throw new Exception("Palavra não encontrada.");
-            }
-
-            var favorite = new Favorite
-            {
-                UserId = userId,
-                WordId = wordId,
-                Added = DateTime.UtcNow
-            };
-
-            await _favoriteRepository.AddAsync(favorite);
-        }
-
-        // Método para remover uma palavra dos favoritos
-        public async Task RemoveFromFavoritesAsync(string wordId)
-        {
-            var userId = "userIdFromToken"; // Substitua com o ID real do usuário
-
-            var favorite = await _favoriteRepository.GetByUserIdAndWordIdAsync(userId, wordId);
             if (favorite == null)
             {
                 throw new Exception("Palavra não está em seus favoritos.");
