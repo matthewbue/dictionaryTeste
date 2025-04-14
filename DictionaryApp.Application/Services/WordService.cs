@@ -40,10 +40,6 @@ namespace DictionaryApp.Application.Services
                 WordName = wordDetails.WordName,
                 Definition = wordDetails.Definition
             };
-
-            await _cacheService.SetAsync(cacheKey, wordDto, TimeSpan.FromHours(1));
-            return wordDto;
-
         }
 
         public async Task<IEnumerable<WordDto>> SearchWordsAsync(string search, int limit, int page)

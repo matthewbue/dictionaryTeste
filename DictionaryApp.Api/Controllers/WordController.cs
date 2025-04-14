@@ -29,6 +29,18 @@ public class WordController : ControllerBase
     [HttpGet("entries/en")]
     public async Task<IActionResult> GetWords([FromQuery] int limit = 10, [FromQuery] int page = 1, [FromQuery] string search = "")
     {
+        var wordListDto = await _wordService.GetWordsAsync(page, limit); // Aqui já temos a lista de palavras
+        var userId = _jwtTokenService.GetUserIdFromToken();
+
+        // Aqui, precisamos passar apenas as palavras para o histórico (não o DTO completo)
+        var words = wordListDto.Results.ToList();
+
+        foreach (var word in words)
+        {
+            await _historyService.AddToHistoryAsync(userId, word);  // Adiciona a palavra no histórico
+        }
+
+        return Ok(wordListDto);
         var wordList = await _wordService.GetWordsAsync(search, limit, page);
         return Ok(wordList);
     }
