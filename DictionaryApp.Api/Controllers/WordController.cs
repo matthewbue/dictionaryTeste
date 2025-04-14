@@ -57,20 +57,18 @@ public class WordController : ControllerBase
     }
 
 
-    [HttpPost("entries/en/{word}/favorite")]
-    public async Task<IActionResult> AddToFavorites(string word)
+    [HttpPost("entries/en/{wordName}/favorite")]
+    public async Task<IActionResult> AddToFavorites([FromRoute] string wordName)
     {
-        var userId = _jwtTokenService.GetUserIdFromToken();
-        await _wordService.AddWordToFavoritesAsync(word);
+        await _wordService.AddWordToFavoritesAsync(wordName);
         return Ok(new { message = "Palavra adicionada aos favoritos." });
     }
 
 
-    [HttpDelete("entries/en/{word}/unfavorite")]
-    public async Task<IActionResult> RemoveFromFavorites(string word)
+    [HttpDelete("entries/en/{wordName}/unfavorite")]
+    public async Task<IActionResult> RemoveFromFavorites(string wordName)
     {
-        var userId = _jwtTokenService.GetUserIdFromToken();
-        await _wordService.RemoveWordFromFavoritesAsync(word);
+        await _wordService.RemoveWordFromFavoritesAsync(wordName);
         return Ok(new { message = "Palavra removida dos favoritos." });
     }
 

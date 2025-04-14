@@ -36,10 +36,10 @@ namespace DictionaryApp.Infra.Repositories
                 .ToListAsync();
         }
 
-        public async Task<Favorite> GetByUserIdAndWordIdAsync(string userId, string wordId)
+        public async Task<Favorite> GetByUserIdAndWordNameAsync(string userId, string wordName)
         {
             return await _context.Favorites
-                .FirstOrDefaultAsync(f => f.UserId == userId && f.WordId == wordId);
+                .FirstOrDefaultAsync(f => f.UserId == userId && f.WordId == wordName);
         }
 
         // Para os métodos que não estão sendo usados na interface, como GetByIdAsync

@@ -9,7 +9,5 @@ namespace DictionaryApp.Application.Interfaces
         Task RemoveWordFromFavoritesAsync(string wordId);
         Task<IEnumerable<FavoriteDto>> GetFavoriteWordsAsync();
         Task<WordListDto> GetWordsAsync(int page, int limit);
-        Task AddToFavoritesAsync(string wordId);  // Adicione esta linha
-        Task RemoveFromFavoritesAsync(string wordId);  // Adicione esta linha
     }
 }

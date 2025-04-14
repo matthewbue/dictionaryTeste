@@ -49,11 +49,6 @@ namespace DictionaryApp.Infra.Repositories
             }
         }
 
-        Task<Word> IWordRepository.GetWordByNameAsync(string word)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task AddWordsAsync(List<Word> words)
         {
             await _context.Words.AddRangeAsync(words);
